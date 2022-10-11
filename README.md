@@ -6,6 +6,7 @@
 
 - [Sentinel1-SLC Product description](#sentinel1-slc-product-description)
 - [Dataset in S3 at glance](#dataset-in-s3-at-glance)
+  - [Expanding data scope to EU region (work in progress)](#expanding-data-scope-to-eu-region-work-in-progress)
   - [AWS S3 bucket and object structure](#aws-s3-bucket-and-object-structure)
   - [Contents inside each imagery](#contents-inside-each-imagery)
   - [Sentinel1-SLC IW product naming convention](#sentinel1-slc-iw-product-naming-convention)
@@ -46,6 +47,7 @@ Following up, as a next step, we aim to expand the service by increasing data co
 </p>
 
 The following figure provides an insight of the current percentage of EU datasets uploaded to the S3 bucket. As mentioned above, in addition to [Germany](https://github.com/live-eo/earth-on-aws/blob/main/imagery/germany.geojson), other regions are also being updated simultaneously, however, the process is still in progress with 34.31% of the total EU dataset already available in [sentinel1-slc](https://s3.console.aws.amazon.com/s3/buckets/sentinel1-slc/?region=eu-west-1&tab=objects) S3 bucket.
+
 
 <table align = "center">
 <tr><th>Year</th><th>Percentage of dataset in S3</th></tr>
