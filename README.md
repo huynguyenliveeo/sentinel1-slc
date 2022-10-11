@@ -47,6 +47,21 @@ Following up, as a next step, we aim to expand the service by increasing data co
 
 The following figure provides an insight of the current percentage of EU datasets uploaded to the S3 bucket. As mentioned above, in addition to [Germany](https://github.com/live-eo/earth-on-aws/blob/main/imagery/germany.geojson), other regions are also being updated simultaneously, however, the process is still in progress with 34.31% of the total EU dataset already available in [sentinel1-slc](https://s3.console.aws.amazon.com/s3/buckets/sentinel1-slc/?region=eu-west-1&tab=objects) S3 bucket.
 
+<table align = "center">
+<tr><th>Year</th><th>Percentage of dataset in S3</th></tr>
+<tr><td>2014</td><td align = "center">94.55%</td></tr>
+<tr><td>2015</td><td align = "center">66.48%</td></tr>
+<tr><td>2016</td><td align = "center">24.08%</td></tr>
+<tr><td>2017</td><td align = "center">28.33%</td></tr>
+<tr><td>2018</td><td align = "center">29.53%</td></tr>
+<tr><td>2019</td><td align = "center">68.47%</td></tr>
+<tr><td>2020</td><td align = "center">19.80%</td></tr>
+<tr><td>2021</td><td align = "center">17.30%</td></tr>
+<tr><td>2022</td><td align = "center">43.21%</td></tr>
+<tr><td><b>Total</b></td><td align = "center"><b>34.31%</b></td></tr>
+
+</table>
+
 ### AWS S3 bucket and object structure
 
 The dataset in the S3 bucket is organized in a directory structure based on the **start date of the acquisition** for ease of retrieval.
