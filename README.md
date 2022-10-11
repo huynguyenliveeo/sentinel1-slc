@@ -45,6 +45,8 @@ Following up, as a next step, we aim to expand the service by increasing data co
 <img src="https://github.com/huynguyenliveeo/sentinel1-slc/blob/main/imagery/europe.png">
 </p>
 
+The following figure provides an insight of the current percentage of EU datasets uploaded to the S3 bucket. As mentioned above, in addition to [Germany](https://github.com/live-eo/earth-on-aws/blob/main/imagery/germany.geojson), other regions are also being updated simultaneously, however, the process is still in progress with 34.31% of the total EU dataset already available in [sentinel1-slc](https://s3.console.aws.amazon.com/s3/buckets/sentinel1-slc/?region=eu-west-1&tab=objects) S3 bucket.
+
 ### AWS S3 bucket and object structure
 
 The dataset in the S3 bucket is organized in a directory structure based on the **start date of the acquisition** for ease of retrieval.
